@@ -1,0 +1,134 @@
+@font-face {
+  font-family: "Roboto";
+  src: url("../Roboto/Roboto-VariableFont_wdth,wght.ttf");
+}
+
+* {
+    font-family: "Roboto";
+}
+body {
+  margin: 0;
+  background: #fff;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 16px;
+  border-bottom: 1px solid #ddd;
+}
+
+.left-section {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.menu-icon {
+  font-size: 20px;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.logo img {
+  height: 30px;
+}
+
+.search-bar {
+  display: flex;
+  flex: 1;
+  max-width: 600px;
+  margin: 0 20px;
+}
+
+.search-bar input {
+  flex: 1;
+  padding: 6px;
+  border: 1px solid #ccc;
+}
+
+.search-bar button {
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  background: #f8f8f8;
+  cursor: pointer;
+}
+
+.user-icons {
+  display: flex;
+  gap: 16px;
+}
+
+.container {
+  display: flex;
+  padding: 16px;
+}
+
+.main-video {
+  flex: 2;
+  margin-right: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.video-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.channel-info {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.actions {
+  display: flex;
+  gap: 10px;
+}
+
+.subscribe {
+  background: red;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  cursor: pointer;
+}
+
+.sidebar {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.video-card {
+  display: flex;
+  gap: 8px;
+}
+
+.video-card img {
+  width: 168px;
+  height: 94px;
+  object-fit: cover;
+}
+
+.video-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+}
+
+.video-details h4 {
+  margin: 0;
+  font-size: 14px;
+}
+
+.video-details p {
+  font-size: 12px;
+  color: #555;
+}
